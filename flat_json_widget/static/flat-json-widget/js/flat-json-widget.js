@@ -103,7 +103,7 @@ var initJsonKeyValueWidget = function(fieldName, inlinePrefix) {
             newValue[key] = value;
         });
 
-        // update textarea value
+        // update textarea value 
         $(rawTextarea).val(JSON.stringify(newValue, null, 4));
     };
 
